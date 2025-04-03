@@ -1,0 +1,106 @@
+## DESENVOLVIMENTO PROJETO GRÁFICO
+
+1° Pressionar com o botão direito do mouse e abrir arquivo como "Open Git Bash here"
+
+2° Acessar prompt de comando:
+
+git init
+
+//Adionando 1 arquivo//
+-- git add 'nome do arquivo' 
+//Acdicionando todos os aquivos da pasta//
+
+git add .
+
+//Para retirar algum arquivo que foi adicionado acidentalmente//
+git rm --cached 'nome do arquivo' / ou usar |git reset 'nome do arquivo'
+
+git status (para verificar os arquivos que foram adicionados)
+
+
+//Necessário caso seja a primeira vez//
+git config --global user.email "you@example.com"
+
+git config --global user.name "Your Name"
+
+git commit -m "###.........." (Descrição do que foi feito no arquivo/se teve alteração)
+
+git log (verifica se foi commitado)
+
+3° Abrir o GitHub:
+
+git remote add origin https://github.com/yehoshuajosue/projeto-grafico_teste.git (Adionado o link do repositório criado no GitHub)
+
+git remote -v (verifica o link para fazer o 'fetch' e o 'push')
+
+git log (verfifcar o ultimo commit)
+
+git status (ver o que falta/caso esteja faltando)
+
+git push -u origin master
+
+Username for 'https://github.com': 'conta do git'
+
+Password for 'https://yehoshuajosue@github.com': 'senha da conta (ele não mostra)'
+
+//Caso de falha com as branch(s)//
+git branch (Verifica a branch)
+master
+
+git branch -m master main (troca a branch de master para main)
+
+git branch
+main
+
+git push -f origin main  (para forçar os arquivos irem para o Git)
+
+=======================
+
+//Criando uma nova branch//
+git checkout -b estudos git (Cria e move para a branch 'estudos git')
+
+git status
+
+git commit -m "................."
+
+git log
+
+git 
+
+
+//Funcionamento corretogit //
+
+
+git init
+
+git remote add origin URL_GITHUB
+
+git pull origin main --allow-unrelated-histories (Realiza combinação de histórico da branch master para main remoto)
+
+git pull origin master --allow-unrelated-histories (Realiza combinação de histórico da branch main remoto para master)
+
+git add .
+
+git commit -m "START, comentário"
+
+git push origin master
+
+
+
+
+
+git commit -m "Criando modelo lógico da Tabela contem_Pizza do Pedido e Documento que registra alterações/sugestões realizadas nas querys"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
