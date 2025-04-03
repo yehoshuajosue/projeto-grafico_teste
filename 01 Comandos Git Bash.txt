@@ -29,7 +29,7 @@ git log (verifica se foi commitado)
 
 3° Abrir o GitHub:
 
-git remote add origin git remote add origin https://github.com/yehoshuajosue/projeto-grafico_teste.git (Adionado o link do repositório criado no GitHub)
+git remote add origin https://github.com/yehoshuajosue/projeto-grafico_teste.git (Adionado o link do repositório criado no GitHub)
 
 git remote -v (verifica o link para fazer o 'fetch' e o 'push')
 
@@ -52,7 +52,53 @@ git branch -m master main (troca a branch de master para main)
 git branch
 main
 
-git push -f origin main (para forçar os arquivos irem para o Git)
+git push -f origin main  (para forçar os arquivos irem para o Git)
+
+=======================
+
+//Criando uma nova branch//
+git checkout -b estudos git (Cria e move para a branch 'estudos git')
+
+git status
+
+git commit -m "................."
+
+git log
+
+git 
+
+
+//Funcionamento corretogit //
+
+
+git init
+
+git remote add origin URL_GITHUB
+
+git pull origin main --allow-unrelated-histories (Realiza combinação de histórico da branch master para main remoto)
+
+git pull origin master --allow-unrelated-histories (Realiza combinação de histórico da branch main remoto para master)
+
+git add .
+
+git commit -m "START, comentário"
+
+git push origin master
+
+
+
+
+
+git commit -m "Criando modelo lógico da Tabela contem_Pizza do Pedido e Documento que registra alterações/sugestões realizadas nas querys"
+
+
+
+
+
+
+
+
+
 
 
 
